@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&family=Work+Sans:wght@500&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* header section  */
+
+
+.header{
+    width: 1920px;
+    height: 1422px;
+    background: rgba(255, 144, 14, 0.1);
+}
+.nav-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-tittle{
+    margin-left: 70px;
+    font-weight: 700;
+    font-size: 45px;
+}
+.btn-section{
+    display: flex;
+    gap: 50px;
+    margin-right: 100px;
+}
+
+.brand-space{
+   text-align: center;
+}
+.brand-sub{
+    margin-left: 529px;
+    margin-top: 55px;
+}
+.brand-tittle{
+    font-weight: 700;
+    font-size: 64px;
+    width: 862px;
+    height: 225px;
+    
+}
+.brand-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    width: 868px;
+    height: 52px;
+}
+.brand-btn{
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: darkorange;
+    border-radius: 8px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+.banner img{
+    width: 1440px;
+    height: 700px;
+    border-radius: 8px;
+    margin-bottom: 45px;
+}
+
+
+/*-------------- 
+team style  
+---------------*/
+
+.team{
+    display: flex;
+    align-items: center;
+}
+.team-photo img{
+   margin-top: 85px;
+    
+}
+
+.team-text{
+    margin-left: 600px;
+}
+.team-tittle{
+    font-weight: 500;
+    font-size: 45px;
+    width: 468px;
+    height: 106px;
+    color: #727272;
+}
+.team-para{
+    font-weight: 400;
+    font-size: 16px;
+    width: 537px;
+    height: 78px;
+    color: #727272;
+}
+.team-btn{
+    width: 180px;
+    height: 64px;
+    background-color: coral;
+    border-radius: 8px;
+}
+
+
+/*--------------
+ architect style  
+ ---------------*/
+
+
+.architect{
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 1059px;
+    margin-top: 130px;
+}
+.feature{
+    margin-left: 250px;
+}
+.block{
+    margin: 20px 0;
+}
+.architect-tittle{
+    font-weight: 700;
+    font-size: 45px;
+    width: 468px;
+    height: 106px;
+    color: #131313;
+}
+.para{
+    font-weight: 400;
+    font-size: 16px;
+    width: 586px;
+    height: 78px;
+    color: #727272;
+}
+.sub{
+    font-weight: 600;
+    font-size: 20px;
+    width: 252px;
+    height: 23px;
+    color: #131313;
+}
+.architect-btn{
+    width: 342px;
+    height: 200px;
+    background-color: coral;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.arc-pic img{
+    width: 708px;
+    height: 982px;
+    margin-left: 42px;
+}
+
+/*--------------
+ some fact style  
+ ---------------*/
+
+.some-fact{
+    margin-top: 130px;
+}
+.batches{
+    display: flex;
+    gap: 130px;
+}
+.some-start{
+    margin-left: 240px;
+}
+.batch{
+    width: 241.83px;
+    height: 241.83px;
+}
+.some-tittle{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    width: 258px;
+    height: 53px;
+}
+.some-pari{
+    font-weight: 400;
+    font-size: 16px;
+    width: 542px;
+    height: 52px;
+    color: #727272;
+}
+.batch img{
+    width: 45.22px;
+    height: 45.22px;
+}
+.number{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    width: 102px;
+    height: 53px;
+}
+.some-para{
+    font-weight: 600;
+    font-size: 20px;
+    width: 160px;
+    height: 23px;
+    color: #727272;
+}
+.batches{
+    margin-left: 290px;
+}
+
+/*----------------
+ sponsor style  
+ ----------------*/
+
+.sponsor{
+    margin-top: 180px;
+}
+.sponsor-text{
+    margin-left: 689px;
+}
+.sponsor-tittle{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    width: 327px;
+    height: 53px;
+}
+.sponsor-para{
+    font-weight: 400;
+    font-size: 16px;
+    width: 542px;
+    height: 52px;
+    color: #727272;
+}
+.icon{
+    display: flex;
+    gap: 155px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+/*-------------
+ footer style  
+ -------------*/
+
+.footer{
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-left: 145px;
+}
+.footer-para{
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    width: 620px;
+    height: 23px;
+    margin-left: 410px;
+    margin-top: 100px;
+}
+
+/* ----------------
+small device  
+-----------------*/
+
+@media only screen and (max-width: 688px) {
+    .nav-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
